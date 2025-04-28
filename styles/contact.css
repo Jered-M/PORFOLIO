@@ -1,0 +1,22 @@
+.contact-page {
+    background-color: #000000; /* Fond noir */
+    color: #ffffff; /* Texte blanc pour contraste */
+    min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    padding: 20px;
+}
+
+.contact-page a {
+    color: #ffffff; /* Liens en blanc */
+    transition: color 0.3s ease;
+}
+
+.contact-page a:hover {
+    color: #ffcc00; /* Couleur jaune au survol */
+}
+
+.contact-page ul li img {
+    border-radius: 50%; /* Icônes arrondies */
+    background: rgba(255, 255, 255, 0.2); /* Fond semi-transparent */
+    padding: 5px;
+    margin-right: 10px;
+}

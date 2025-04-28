@@ -1,0 +1,20 @@
+.important-name {
+    font-size: 4rem; /* Très grand texte */
+    font-weight: bold; /* Texte en gras */
+    color: #ff5733; /* Couleur vive pour attirer l'attention */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre pour un effet 3D */
+    margin-bottom: 20px; /* Espacement en bas */
+    animation: fadeIn 2s ease-in-out; /* Animation d'apparition */
+}
+
+/* Animation pour un effet d'apparition */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

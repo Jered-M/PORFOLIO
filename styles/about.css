@@ -1,0 +1,36 @@
+.about-page {
+    background: radial-gradient(circle, #2a5298, #1e3c72); /* Fond radial unique */
+    color: #ffffff; /* Texte blanc pour contraste */
+    min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    padding: 20px;
+}
+
+/* Supprimez les styles liés aux billes et à la fumée */
+.about-page::before,
+.about-page::after {
+    content: none; /* Supprime les éléments visuels inutiles */
+}
+
+.about-page h1, .about-page h2 {
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); /* Ombre plus marquée pour les titres */
+    font-family: 'Georgia', serif; /* Police différente pour les titres */
+}
+
+.about-page ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacement entre l'icône et le texte */
+}
+
+.about-page ul li img {
+    border-radius: 50%; /* Icônes arrondies */
+    background: rgba(255, 255, 255, 0.3); /* Fond semi-transparent */
+    padding: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre pour les icônes */
+}
+
+.about-page p {
+    line-height: 1.8; /* Espacement entre les lignes pour une meilleure lisibilité */
+    font-family: 'Arial', sans-serif; /* Police différente pour le texte */
+}

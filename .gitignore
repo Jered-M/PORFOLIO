@@ -1,0 +1,7 @@
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Dossiers spécifiques
+node_modules/
+vendor/
